@@ -560,3 +560,12 @@ function Ace()
 	Card.call(this, 'ace', -1);
 }
 */
+// script.js
+
+// Function to open the link when the button is clicked
+function openGameLink() {
+    window.open("https://podelolt.github.io/Julekalender/", "_blank");
+}
+
+// Event listener to trigger the function when the button is clicked
+document.getElementById("spillknapp").addEventListener("click", openGameLink);
